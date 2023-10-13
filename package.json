@@ -1,0 +1,64 @@
+{
+  "name": "intro-starwars-app",
+  "version": "1.0.0",
+  "description": "Intro Star Wars Marcia Moreira 10/2023",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marcia-Moreira/Challange_01-WoMakersCode-Intro_Star_Wars_MM.git"
+  },
+
+  "keywords": [
+    "GitHubPage",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Package",
+    "json",
+    "nodejs",
+    "express",
+    "Star",
+    "Wars"
+  ],
+
+  "author": "Marcia Moreira",
+  "license": "MIT",
+
+  "bugs": {
+    "url": "https://github.com/Marcia-Moreira/Challange_01-WoMakersCode-Intro_Star_Wars_MM/issues"
+  },
+
+  "homepage": "https://github.com/Marcia-Moreira/Challange_01-WoMakersCode-Intro_Star_Wars_MM#readme",
+
+  "dependencies": {
+    "eslint-friendly-formatter": "^4.0.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "prettier": "^1.19.1", 
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "husky": "^8.0.3",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  },
+  "husky": {
+    "pre-commit": "lint-staged",
+    "pre-push": "npm run lint"
+  },
+
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+
+  }
+
+}
