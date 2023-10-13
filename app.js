@@ -2,7 +2,7 @@
  * File: app.js
  * Description: File responsible for running the application
  * Data: 05/04/2022
- * Author: Glaucia Lemos <Twitter: @glaucia_lemos86>
+* Author: Reprodução e Modificação -> Marcia Moreira 10/2023
  */
 
 
